@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*Estilo para telas*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header > h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+menu{
+    background-color: rgb(61, 61, 61);
+    padding: 10px;
+}
+header > ul{
+    text-decoration: none;
+    
+}
+header > menu > ul > li{
+    display: inline-block;
+    padding: 5px;
+    padding-right: 5p;
+    border-radius: 10px;
+    background-color: rgb(142, 141, 141);
+    color: white;
+}
+
+main{
+    background-color: rgb(216, 214, 214);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.274);
+}
+article > h2{
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+article > p{
+    text-align: justify;
+}
