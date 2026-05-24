@@ -18,17 +18,27 @@
             text-align: center;
             background-color: antiquewhite;
 
-            flex-basis: 250px;
-            flex-shrink: 1; /*Encolhe*/
-            flex-grow: 1; /*Cresce*/
+            flex-basis: 200px;   
+        }
+        div#cxaA {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+        div#cxaB {
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+        div#cxaC {
+            flex-shrink: 1;
+            flex-grow: 0;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="filho">A</div>
-        <div class="filho">B</div>
-        <div class="filho">C</div>
+        <div class="filho" id="cxaA">A</div>
+        <div class="filho" id="cxaB">B</div>
+        <div class="filho" id="cxaC">C</div>
     </div>
 </body>
 </html>
